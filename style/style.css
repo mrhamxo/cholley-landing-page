@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    border: 1px solid #ECECED;
+}
+#navbar-container{
+    padding: 0;
+}
+.navbar-nav .nav-link {
+    text-align: left;
+    font: normal normal normal 18px/9px Josefin Sans;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+.d-flex{
+    margin-right: 30px;
+}
+dl, ol, ul {
+    margin-bottom: 1rem;
+    margin-left: 50px;
+}
+.form-control{
+    background-color: #ECECED;
+    border: 1px solid #ECECED;
+    border-top-right-radius: 0;
+    border-end-end-radius: 0;
+    padding: 5px;
+}
+.form-control::placeholder{
+    padding-left: 10px;
+}
+.btn{
+    background-color: #ECECED;
+    border: 1px solid #ECECED;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 5px;
+}
+.bi-search{
+    margin-right: 10px;
+    color: #A2A7AA;
+}
+
+/* New Arrials */
+.arrival-title{
+    font-family: normal normal Josefin Sans;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+.arrival-desc{
+    font-family: normal normal normal Josefin Sans;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+.img-fluid {
+    position: relative;
+    left: 120px;
+}
+.item-img{
+    width: 200px;
+    height: 260px;
+    background-color: #ECECED;
+    padding: 20px 60px;
+}
+.items-title{
+    margin-top: 20px;
+    font-family: normal normal normal Helvetica;
+    font-size: 16px;
+    color: #1D1D1D;
+    text-align: center;
+}
+.items-desc{
+    font-family: normal normal normal Helvetica;
+    font-size: 16px;
+    color: #1D1D1D;
+    text-align: center;
+
+}
+
+/* Best selling section */
+.bg-selling{
+    background-image: url('/images/Mask\ Group\ 2@2x.png ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.selling-title{
+    font-family: normal normal Josefin Sans;
+    font-weight: 600;
+    font-size: 48px;
+}
+.selling-desc{
+    font-family: normal normal normal Josefin Sans;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+}
+.selling-items-desc{
+    font-family: normal normal normal Helvetica;
+    font-size: 16px;
+}
+
+/* THE BEST OF SKIN CARE SWITZERLAND section */
+#bg-skincare-img{
+    margin-top: 100px;
+    background-image: url(/images/BANNER-2x.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+#skincare-title{
+    font-family: normal normal Josefin Sans;
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+#skincare-desc{
+    font-family: normal normal normal Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#skincare-icon{
+    font-size: 50px;
+}
+#skincare-icon::before{
+    padding: 1px;
+    border: 1px solid #FFFFFF;
+    border-radius: 51%;
+}
+
+/* Blog Section */
+#card-shadow{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.icon-bar{
+    padding: 18px 0;
+}
+.blog-tile{
+    font-family: normal normal Josefin Sans;
+    font-size: 48px;
+    font-weight: 600;
+}
+.blog-desc{
+    font-family: normal normal normal Josefin Sans;
+    font-size: 24px;
+}
+.card-text{
+    font-family: normal normal normal Helvetica;
+    padding-bottom: 20px;
+}
+.read-more{
+    border-radius: 30px;
+    color: white;
+    background-color: #7D848A;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+
+/* Footer Section */
+#bg-footer{
+    margin-top: 100px;
+    background-image: url(/images/Footer\ Leaf@2x.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-color: #F8FCFF;
+    padding: 50px 0;
+}
+.img-fluid {
+    position: relative;
+    left: 0px;
+    max-width: 50%;
+    padding-bottom: 20px;
+}
+.footer-desc{
+    font-family: normal normal normal Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-title-name{
+    font-family: normal normal Josefin Sans;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.footer-titles p{
+    font-family: normal normal normal Helvetica;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* footer-copyright section */
+#footer-copyright{
+    background-color: #7D848A;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+#footer-copyright p{
+    margin-bottom: 0;
+}
