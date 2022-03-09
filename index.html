@@ -8,10 +8,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="bootstrap css/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap css/css/bootstrap.min.css" type="css"> -->
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- Awesome icon -->
+    <script src="https://kit.fontawesome.com/83a4e6fa8d.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -22,7 +25,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid p-0">
-        <img src="images/logo.png" alt="logo" id="logo" class="ps-5">
+        <img src="images/logo.png" alt="logo" id="logo" class="px-2 w-0">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +47,7 @@
               <a class="nav-link" href="#">Technology</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">News & Blog</a>
+              <a class="nav-link" href="#">News&Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -54,6 +57,10 @@
             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
             <a class="btn" href="#"><i class="bi bi-search"></i></a>
           </form>
+        </div>
+        <div class="nav-icon">
+          <i class="bi bi-search"></i>
+          <i class="bi bi-list"></i>
         </div>
       </div>
     </nav>
@@ -82,51 +89,55 @@
         </div>
       </div>
 
+      <!-- Sticky Social Icon -->
+      <div class="sticky-icon">
+        <a href="#" class="messenger"><i class="fab fa-facebook-messenger"></i> Messenger</a>
+        <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+      </div>
+
       <!-- arrivals section -->
-      <div class="row arrival">
+      <div class="row arrival justify-content-center" id="arrival-section">
         <div class="col-12 mt-5 text-center">
           <h3 class="arrival-title mt-5">New Arrivals</h3>
           <p class="arrival-desc mb-5">Just in row</p>
         </div>
         <div class="row justify-content-center pb-5 mb-5">
-          <div class="col-4">
-            <img class="img-fluid" src="images/Mask Group 1.png" alt="Mask Group">
+          <div class="col-lg-4">
+            <img class="img-fluid rounded" id="img-display" src="images/Mask Group 1.png" alt="Mask Group">
           </div>
           <div class="col-md-8">
-            <div class="row justify-content-center">
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-1@2x.png" alt="item-1">
+            <div class="row justify-content-evenly"> 
+              <div class=" col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-1@2x.png" alt="item-1">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-2.png" alt="item-2">
+              <div class="col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-2.png" alt="item-2">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-3.png" alt="item-3">
+              <div class="col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-3.png" alt="item-3">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-4.png" alt="item-4">
+            
+              <div class="col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-4.png" alt="item-4">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-5.png" alt="item-5">
+              <div class="col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-5.png" alt="item-5">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-              <div class="col-md-3 text-center">
-                <img class="item-img" src="images/item-6.png" alt="item-6">
+              <div class="col-lg-4 col-md-6 col-sm-12 text-center p-0">
+                <img class="card mx-auto item-img" src="images/item-6.png" alt="item-6">
                 <h5 class="items-title">CHOLLEY PHYTOBIOTECH</h5>
-                <p class="items-desc">Hydrating & Firming Satin Balm for all skin types</p>
+                <p class="items-desc">Hydrating & Firming Satin Balm <br> for all skin types</p>
               </div>
-            </div>  
           </div>
         </div>
       </div>
@@ -137,18 +148,24 @@
           <h3 class="selling-title">Best Selling</h3>
           <p class="selling-desc">Our campaigns, the latest trends and new collections</p>
         </div>
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-3 text-center col-11">
-            <img class="item-img" src="images/item-7@2x.png" alt="item-7">
-            <p class="selling-items-desc">233V BIOCLEAN S <br> Ampoules 6 x 5 ml</p>
+        <div class="row justify-content-evenly mb-5 pb-5 pt-5">
+          <div class="card bg-card col-lg-3 col-md-12 text-center col-11 pt-5 mb-5 items">
+            <img class="card-item-img mx-auto" src="images/item-2@2x.png" alt="item-7">
+            <div class="card-body">
+              <p class="selling-items-desc">233V BIOCLEAN S <br> Ampoules 6 x 5 ml</p>
+            </div>
           </div>
-          <div class="col-md-3 text-center col-11">
-            <img class="item-img" src="images/item-8@2x.png" alt="item-8">
-            <p class="selling-items-desc">Best Anti-ACNE <br>Skincare Solutions</p>
+          <div class="card bg-card col-lg-3 col-md-12 text-center col-11 pt-5 mb-5 items">
+            <img class="card-item-img mx-auto" src="images/item-8@2x.png" alt="item-8">
+            <div class="card-body">
+              <p class="selling-items-desc">Best Anti-ACNE <br>Skincare Solutions</p>
+            </div> 
           </div>
-          <div class="col-md-3 text-center col-11">
-            <img class="item-img pb-5" src="images/item-9@2x.png" alt="item-9">
-            <p class="selling-items-desc">Swiss Anti-Aging <br>Creams & Serums</p>
+          <div class="card bg-card col-lg-3 col-md-12 text-center col-11 pt-5 mt-md-5 mt-lg-0 mb-5 items">
+            <img class="card-item-img mx-auto pb-5 img-fluid" src="images/item-9@2x.png" alt="item-9">
+            <div class="card-body">
+              <p class="selling-items-desc">Swiss Anti-Aging <br>Creams & Serums</p>
+            </div>  
           </div>
         </div>
       </div>
@@ -158,49 +175,49 @@
         <div class="col-12 text-center">
           <h3 id="skincare-title">THE BEST OF SKIN CARE SWITZERLAND</h3>
           <p id="skincare-desc">CHOLLEY SA is a Swiss manufacturer specializing in the production of high-quality phyto<br>dermocosmetics. The company headquarters is located in Lugano, while its research and<br>manufacturing laboratory is located in Locarno.</p>
-          <span><i class="bi bi-play-circle-fill" id="skincare-icon"></i></span>
+          <i class="bi bi-play-circle-fill" id="skincare-icon"></i>
         </div>
       </div>
 
-      <!-- Blog Section -->
+      <!-- card Section -->
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h3 class="blog-tile">Our News</h3>
           <p class="blog-desc mb-5 pb-3">WHAT'S NEW</p>
         </div>
-        <div class="col-md-3 col-11">
-          <div class="card" id="card-shadow">
+        <div class="col-lg-3 col-md-8 col-11 pt-5">
+          <div class="card pb-4" id="card-shadow">
             <img src="images/Mask Group 3@2x.png" class="card-img-top" alt="Mask Group 3">
             <div class="card-body">
               <div class="icon-bar">
-                <i class="bi bi-person">Admin</i>
-                <i class="bi bi-calendar-day">April 28, 2019</i>
+                <i class="bi bi-person"><p class="d-inline ps-2 pe-3">Admin</p></i>
+                <i class="bi bi-calendar-day"><p class="d-inline ps-2 pe-2">April 28, 2019</p></i>
               </div>
               <p class="card-text">CHOLLEY’s 30 Years <br>Anniversary Contest Winners!</p>
               <a class="read-more" href="#">Read More</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-11">
-          <div class="card m-lg-0" id="card-shadow">
+        <div class="col-lg-3 col-md-8 col-11 pt-5">
+          <div class="card pb-4 m-lg-0" id="card-shadow">
             <img src="images/Mask Group 4@2x.png" class="card-img-top" alt="Mask Group 4">
             <div class="card-body">
               <div class="icon-bar">
-                <i class="bi bi-person">Admin</i>
-                <i class="bi bi-calendar-day">April 28, 2019</i>
+                <i class="bi bi-person"><p class="d-inline ps-2 pe-3">Admin</p></i>
+                <i class="bi bi-calendar-day"><p class="d-inline ps-2 pe-2">April 28, 2019</p></i>
               </div>
               <p class="card-text">CHOLLEY’s 30 Years <br>Anniversary Contest Winners!</p>
               <a class="read-more" href="#">Read More</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-11">
-          <div class="card" id="card-shadow">
+        <div class="col-lg-3 col-md-8 col-11 pt-5">
+          <div class="card pb-4" id="card-shadow">
             <img src="images/Mask Group 5@2x.png" class="card-img-top" alt="Mask Group 5">
             <div class="card-body">
               <div class="icon-bar">
-                <i class="bi bi-person">Admin</i>
-                <i class="bi bi-calendar-day">April 28, 2019</i>
+                <i class="bi bi-person"><p class="d-inline ps-2 pe-3">Admin</p></i>
+                <i class="bi bi-calendar-day"><p class="d-inline ps-2 pe-2">April 28, 2019</p></i>
               </div>
               <p class="card-text">CHOLLEY’s 30 Years <br>Anniversary Contest Winners!</p>
               <a class="read-more" href="#">Read More</a>
@@ -212,47 +229,52 @@
 
       <!-- Footer Section -->
       <div class="row justify-content-center" id="bg-footer">
-        <div class="col-md-3">
-          <img class="img-fluid" src="/images/logo2x.png" alt="footer logo">
+        <div class="col-md-3 col-11" id="footer-col-1">
+          <img class="footer-img-fluid" src="/images/logo2x.png" alt="footer logo">
           <p class="footer-desc">CHOLLEY SA is a Swiss manufacturer specializing in the production of high-quality phyto dermocosmetics. The company headquarters is located in Lugano, while its research and manufacturing laboratory is located in Locarno.</p>
           <i class="bi bi-telephone-fill">051 48 666 84</i><br>
           <i class="bi bi-geo-alt-fill">Cholley Clinic Office #1, End of Street 91, Main Services Road I-8/4 Islamabad Pakistan</i>
         </div>
-        <div class="col-md-2 footer-titles">
-          <h4 class="footer-title-name">Quick Links</h4>
-          <p>About</p>
-          <p>Products</p>
-          <p>Collections</p>
-          <p>Treatments</p>
-          <p>Technology</p>
-          <p>News & Blog</p>
-          <p>Contact Us</p>
+        <div class="col-md-2 col-11 pt-4 footer-titles" id="footer-col-2">
+          <ul class="list-group list-unstyled">
+            <h4 class="footer-title-name">Quick Links</h4>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Treatments</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">News & Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        <div class="col-md-2 footer-titles">
-          <h4 class="footer-title-name">Our Products</h4>
-          <p>Swiss Anti-aging Creams & Serums</p>
-          <p>Skin Repair Creams</p>
-          <p>Skin Brightening Serum Cream</p>
-          <p>Best Anti-ACNE Skincare Solutions</p>
-          <p>Peeling Face Masks</p>
-          <p>Professional Masks</p>
-          <p>Sun Protection Cream</p>
+        <div class="col-md-2 col-11 pt-4 footer-titles" id="footer-col-3">
+          <ul class="list-unstyled justify-content-start">
+            <h4 class="footer-title-name">Our Products</h4>
+            <li><a href="#">Swiss Anti-aging Creams & Serums</a></li>
+            <li><a href="#">Skin Repair Creams</a></li>
+            <li><a href="#">Skin Brightening Serum Cream</a></li>
+            <li><a href="#">Best Anti-ACNE Skincare Solutions</a></li>
+            <li><a href="#">Peeling Face Masks</a></li>
+            <li><a href="#">Professional Masks</a></li>
+            <li><a href="#">Sun Protection Cream</a></li>
+          </ul>
         </div>
-        <div class="col-md-3 footer-titles">
+        <div class="col-md-3 col-11 pt-4 footer-titles" id="footer-col-4">
           <h4 class="footer-title-name">Newsletter</h4>
           <p>If You Have Any Questions, You Can Contact With Us So That We Can Give You A Satisfying Answer. Subscribe To Our Newsletter To Get Our Latest Products.</p>
-          <form action="">
-            <input type="email" placeholder="Your Email">
+          <form class="d-flex form-border mt-4">
+            <input class="form-control me-0" type="search" placeholder="Your Email" aria-label="Search">
+            <a class="search-btn" href="#"><i class="fas fa-arrow-right"></i></a>
           </form>
-          <i class="bi bi-facebook social-icon"></i>
-          <i class="bi bi-instagram social-icon"></i>
-          <i class="bi bi-youtube social-icon"></i>
+          <i class="fab social-icon fa-facebook-square"></i>
+          <i class="fab social-icon fa-instagram-square"></i>
+          <i class="fab social-icon fa-youtube-square"></i>
         </div>
       </div>
 
       <!-- footer-copyright section -->
       <div class="row">
-        <div class="block col-12" id="footer-copyright">
+        <div class="col-12" id="footer-copyright">
           <p>Privacy | Term of use</p>
           <p>© Copyright 2020 CHOLLEY SA - All Rights Reserved</p>
         </div>
@@ -263,8 +285,8 @@
 
 
     <!-- Bootstrap js Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
     <!-- <script src="bootstrap css/js/bootstrap.bundle.min.js"></script> -->
-    <script src="js/script.js"></script>
+    
   </body>
 </html>
